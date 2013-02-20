@@ -1,5 +1,5 @@
 {
-  "name": "causecast/cc-boostrap-bundle",
+  "name": "causecast/cc-bootstrap-bundle",
   "type": "symfony-bundle",
   "description": "Causecast CCBootstrapBundle",
   "keywords" : ["Twitter Bootstrap", "Causecast"],
