@@ -5,7 +5,7 @@
   "keywords" : ["Twitter Bootstrap", "Causecast"],
   "version" : "dev-master",
   "require": {
-    "twitter/bootstrap": "master-dev"
+    "twitter/bootstrap": "dev-master"
   },
   "autoload": {
     "psr-0": {"Causecast\\CCBootstrapBundle": ""}
