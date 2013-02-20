@@ -1,0 +1,22 @@
+{
+  "name": "causecast/cc-boostrap-bundle",
+  "type": "symfony-bundle",
+  "description": "Causecast CCBootstrapBundle",
+  "keywords" : ["Twitter Bootstrap", "Causecast"],
+  "require": {
+    "twitter/bootstrap": "master-dev"
+  },
+  "autoload": {
+    "psr-0": {"Causecast\\CCBootstrapBundle": ""}
+  },
+  "target-dir": "Causecast/CCBootstrapBundle",
+  "config" : {
+      "vendor-dir" : "Resources/public"
+  },
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url" : "git@github.com:Causecast/bootstrap.git"
+    }
+  ]
+}
