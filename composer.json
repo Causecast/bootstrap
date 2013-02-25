@@ -1,9 +1,23 @@
 {
-    "name": "twitter/bootstrap"
-  , "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development."
-  , "keywords": ["bootstrap", "css"]
-  , "homepage": "http://twitter.github.com/bootstrap/"
-  , "author": "Twitter Inc."
-  , "license": "Apache-2.0"
-
+  "name": "causecast/cc-bootstrap-bundle",
+  "type": "symfony-bundle",
+  "description": "Causecast CCBootstrapBundle",
+  "keywords" : ["Twitter Bootstrap", "Causecast"],
+  "version" : "dev-master",
+  "require": {
+    "twitter/bootstrap": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {"Causecast\\CCBootstrapBundle": ""}
+  },
+  "target-dir": "Causecast/CCBootstrapBundle",
+  "config" : {
+      "vendor-dir" : "Resources/public"
+  },
+  "repositories" : [
+    {
+      "type" : "vcs",
+      "url" : "git@github.com:Causecast/bootstrap.git"
+    }
+  ]
 }
